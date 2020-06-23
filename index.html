@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/a47e3e9825.js" crossorigin="anonymous"></script>
+  <title>Tasks list</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class='main-header'>
+      <h1>Great things to do today</h1>
+      <ul class="notifications"></ul>
+    </header>
+    <div class="main-section">
+      <form class="add-task-form">
+        <input type="text" placeholder="Write your task" class="new-task-input">
+        <input type="submit" class="btn add-task" value="Add task"></input>
+        <ul class="collection"></ul>
+        <input type="text" placeholder="Filter tasks" class="filter">
+      </form>
+      <button class="btn clear-tasks" value="Clear tasks">Clear Tasks</button>
+
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
